@@ -1,0 +1,13 @@
+.row, .col-md-6 {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.text-column {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh
+}

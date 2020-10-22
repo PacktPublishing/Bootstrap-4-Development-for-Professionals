@@ -1,0 +1,13 @@
+footer {
+  background-color: #333;
+  padding: em(20);
+}
+.footer {
+  &__title {
+    color: white;
+    font-weight: 900;
+  }
+  &__p {
+    color: white;
+  }
+}

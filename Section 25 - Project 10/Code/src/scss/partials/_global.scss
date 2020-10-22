@@ -1,0 +1,13 @@
+// import fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Roboto:400,700,900&display=swap');
+
+#services, #pricing-tables, #testimonials, #contact, #footer{
+  background: $black;
+  padding: 100px 0;
+}
+#testimonials {
+  padding-top: 0px;
+}
+#siteInfo {
+  background: $form-bg;
+}

@@ -1,0 +1,36 @@
+nav {
+  height: 100px;
+}
+
+.header {
+  position: relative;
+  background-color: #343a40;
+  // background: url("../img/01.jpg") no-repeat center center; // Photo by Persnickety Prints on Unsplash
+  background-size: cover;
+  padding: em(200) 0;
+
+  &__overaly {
+    position: absolute;
+    background-color: #273e54;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    // opacity: 0.3;
+  }
+  &__text {
+    text-align: center;
+    &__img {
+      width: 200px;
+      border-radius: 50%;
+      margin: 0 aoto;
+    }
+    &__h1 {
+      color: white;
+      margin-top: 35px;
+    }
+    &__p {
+      color: white;
+    }
+  }
+}

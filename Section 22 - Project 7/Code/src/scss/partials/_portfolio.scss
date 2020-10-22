@@ -1,0 +1,25 @@
+#portfolio {
+  margin-bottom: 50px;
+  padding: 50px 0;
+  background: #d2d2d2;
+}
+.portfolio-grid {
+  &__a{
+    &__img {
+      width: 100%;
+    }
+  }
+}
+
+#portfolioModal {
+  .modal-title {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .modal-img {
+    width: 100%;
+  }
+  .modal-desc {
+    margin: 20px 50px;
+  }
+}

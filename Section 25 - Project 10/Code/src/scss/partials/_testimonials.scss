@@ -1,0 +1,21 @@
+.testimonials {
+    margin-top: 50px;
+    display: flex;
+    color: $gray2;;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    &__q-l, &__q-r {
+        font-size: 80px;
+        line-height: .5;
+    }
+
+    &__text {
+        text-align: center;
+        width: 50%;
+        padding: 0 35px;
+        span {
+            color: $green;
+            text-transform: uppercase;
+        }
+    }
+}

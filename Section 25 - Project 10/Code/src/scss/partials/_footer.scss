@@ -1,0 +1,62 @@
+.footer {
+    &__twitter {
+        margin-top: 20px;
+        &__meta {
+            i {
+                color: $green;
+                font-size: 20px;
+            }
+            span {
+                padding-left: 15px;
+                font-weight: 600;
+                color: $gray1;
+                font-family: 'Open Sans', sans-serif;
+
+            }
+        }
+        &__post {
+            color: $gray1;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                margin-bottom: 35px;
+                a {
+                    color: $green;
+                }
+        }
+    }
+}
+
+
+.footer {
+    &__post {
+        margin-top: 20px;
+        &__date, &__content {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            color: $gray1;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        &__content {
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+.site-info {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  &__logo{
+    height: 25px;
+  }
+  &__text {
+    display: flex;
+    justify-content: space-around;
+    color: $gray1;
+    font-family: 'Open Sans', sans-serif;
+    b{
+      font-weight: 600;
+    }
+  }
+}

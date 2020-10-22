@@ -1,0 +1,52 @@
+.navbar {
+    height: 115px !important;
+    background: $black;
+}
+
+.navbar-brand img {
+    height: 25px;
+}
+
+nav .active>.nav-link {
+    color: $green !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    transition: all .25s;
+}
+
+.header-banner {
+    height: 700px;
+    background: url('../img/banner-headings/banner-img-min.jpg');
+    background-size: cover;
+    background-attachment: $bg-attachment;
+    background-position-y: -200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    &__icons {
+        position: absolute;
+        bottom: 0;
+        right: 150px;
+    }
+    &__text {
+        color: white;
+        &__h1 {
+             font-family: 'Open Sans', sans-serif;
+             font-weight: 300;
+             font-size: 70px;
+             margin-bottom: 0px;
+
+        }
+        &__p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 1;
+        }
+    }
+
+
+}

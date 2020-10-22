@@ -1,0 +1,17 @@
+.face {
+  margin: 0 em(15);
+  &__img {
+    display: block;
+    width: 70%;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  &__name {
+    text-align: center;
+    margin-top: em(15);
+    font-size: 20px;
+  }
+  &__role {
+    text-align: center;
+  }
+}

@@ -1,0 +1,20 @@
+.icon-wrapper {
+  text-align: center;
+  margin: em(50) 0;
+  cursor: pointer;
+  &__icon {
+    position: absolute;
+    right: 0;
+    left: 0;
+    font-size: em(70);
+    color: $primary;
+    transition: all .1s;
+    &:hover {
+      font-size: em(75);
+    }
+  }
+  &__h2 {
+    padding-top: em(70);
+    font-size: em(20);
+  }
+}

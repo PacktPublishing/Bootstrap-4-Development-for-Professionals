@@ -1,0 +1,60 @@
+header {
+  position: relative;
+  background: url("../img/berries.jpg") ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  &:after {
+    content: "";
+    background: rgba(#000, .35);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+  }
+}
+// bootstrap navbar override
+.navbar-brand {
+  font-weight: 700;
+  font-size: em(28);
+  color: white !important;
+  z-index: 3;
+}
+.navbar-nav {
+  z-index: 3;
+}
+.navbar-nav .nav-link {
+  font-weight: 700;
+  color: white !important;
+  text-transform: uppercase;
+  transition: all 0.25s;
+  font-size: em(13);
+  &:hover {
+    color: #f4f4f4 !important;
+  }
+}
+
+
+.header-text {
+  padding: em(20);
+  padding-top: em(200) - em(68);
+  padding-bottom: em(200);
+  position: relative;
+  z-index: 3;
+  &__h1 {
+    color: white;
+    font-weight: 900;
+  }
+  &__form {
+    margin-top: em(25);
+    .btn {
+      width: em(150);
+    }
+  }
+  &__small-text{
+    color:white;
+    font-size: em(14);
+  }
+}

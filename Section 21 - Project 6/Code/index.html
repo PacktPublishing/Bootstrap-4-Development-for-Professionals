@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+
+	<aside class="aside">
+		<div class="aside__brand">
+			<h1 class="aside__brand__h1">Admin</h1>
+		</div>
+		<ul class="nav flex-column aside-nav">
+			<li class="nav-item aside-nav__li">
+				<a class="nav-link aside-nav__li__a " href="#">Dashboard</a>
+			</li>
+			<li class="nav-item aside-nav__li" data-toggle="collapse" href="#componentsCollapse" role="button" aria-expanded="false" aria-controls="componentsCollapse">
+				<a class="nav-link aside-nav__li__a" href="#">Components</a>
+				<i class="fas fa-caret-down aside-nav__li__i"></i>
+				<div class="collapse aside-nav__li__collapse" id="componentsCollapse">
+					<ul class="nav flex-column aside-nav__li__collapse__nav">
+						<li class="nav-item aside-nav__li__collapse__nav__li">
+							<a class="nav-link aside-nav__li__collapse__nav__li__a " href="#0">Cards</a>
+						</li>
+						<li class="nav-item aside-nav__li__collapse__nav__li">
+							<a class="nav-link aside-nav__li__collapse__nav__li__a" href="#0">Tables</a>
+						</li>
+						<li class="nav-item aside-nav__li__collapse__nav__li">
+							<a class="nav-link aside-nav__li__collapse__nav__li__a" href="#0">Forms</a>
+						</li>
+
+					</ul>
+				</div>
+			</li>
+			<li class="nav-item aside-nav__li" data-toggle="collapse" href="#layoutCollapse" role="button" aria-expanded="false" aria-controls="layoutCollapse">
+				<a class="nav-link aside-nav__li__a" href="#">Layout</a>
+				<i class="fas fa-caret-down aside-nav__li__i"></i>
+				<div class="collapse aside-nav__li__collapse" id="layoutCollapse">
+					<ul class="nav flex-column aside-nav__li__collapse__nav">
+						<li class="nav-item aside-nav__li__collapse__nav__li">
+							<a class="nav-link aside-nav__li__collapse__nav__li__a " href="#0">Blank</a>
+						</li>
+						<li class="nav-item aside-nav__li__collapse__nav__li">
+							<a class="nav-link aside-nav__li__collapse__nav__li__a" href="#0">Content</a>
+						</li>
+						<li class="nav-item aside-nav__li__collapse__nav__li">
+							<a class="nav-link aside-nav__li__collapse__nav__li__a" href="#0">404</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="nav-item aside-nav__li">
+				<a class="nav-link aside-nav__li__a" href="#">About</a>
+			</li>
+			<li class="nav-item aside-nav__li">
+				<a class="nav-link aside-nav__li__a" href="#">Documentation</a>
+			</li>
+
+		</ul>
+	</aside>
+	<main>
+		<div class="top-bar">
+			<div class="top-bar__search">
+				<form class="" method="post">
+					<div class="form-group">
+						<label for="search" class="sr-only">Email address</label>
+						<input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="search" placeholder="Search here...">
+					</div>
+				</form>
+			</div>
+		</div>
+		<section class="main-content">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col">
+						<h1>Admin Dashboard</h1>
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Special title treatment</h5>
+								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card">
+							<div class="card-body">
+								<h5 class="card-title">Special title treatment</h5>
+								<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mt-3">
+					<div class="col-md-3">
+						<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+							<div class="card-header">Header</div>
+							<div class="card-body">
+								<h5 class="card-title">Primary card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card border-light mb-3" style="max-width: 18rem;">
+							<div class="card-header">Header</div>
+							<div class="card-body">
+								<h5 class="card-title">Light card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card border-warning mb-3" style="max-width: 18rem;">
+							<div class="card-header">Header</div>
+							<div class="card-body text-warning">
+								<h5 class="card-title">Warning card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+							<div class="card-header">Header</div>
+							<div class="card-body">
+								<h5 class="card-title">Dark card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</main>
+
+
+
+	<script src="js/scripts.min.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>

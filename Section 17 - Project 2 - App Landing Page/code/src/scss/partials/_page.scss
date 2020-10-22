@@ -1,0 +1,15 @@
+.blog-single {
+  margin: em(70) 0;
+    &__h1 {
+      font-size: em(40);
+      font-weight: 900;
+      margin-bottom: em(16);
+      line-height: 1.5;
+    }
+    &__p {
+      font-size: em(20);
+      font-weight: 300;
+      line-height: 2;
+      margin-bottom: 20px;
+    }
+  }

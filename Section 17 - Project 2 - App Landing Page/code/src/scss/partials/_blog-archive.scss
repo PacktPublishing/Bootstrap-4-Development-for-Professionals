@@ -1,0 +1,21 @@
+.blog-archive {
+  margin: em(70) 0;
+  &__item {
+    margin-top: em(40);
+    border-bottom: solid 2px #eee;
+    &__h2 {
+      font-size: em(40);
+      font-weight: 900;
+    }
+    &__p {
+      font-size: em(24);
+      font-weight: 300;
+    }
+    &__meta {
+      margin-bottom: em(40);
+      &__author-label {
+        color: gray;
+      }
+    }
+  }
+}

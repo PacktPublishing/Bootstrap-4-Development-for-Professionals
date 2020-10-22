@@ -1,0 +1,28 @@
+.form {
+    margin-top: -50px;
+    &__h3 {
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: white;
+        & + div {
+            background: $gray2;
+            height: 2px;
+            margin-bottom: 25px;
+        }
+
+    }
+    input, textarea {
+        border-radius: 0;
+        background: $form-bg;
+        border: none;
+    }
+    textarea {
+        width: 100%;
+        height: 150px;
+    }
+    p{
+        color: $gray2;
+        margin-bottom: 0px;
+    }
+} 

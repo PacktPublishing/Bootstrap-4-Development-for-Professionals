@@ -1,0 +1,19 @@
+.text-block{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__text{
+    padding: 0 calc(2vw + 15px);
+    &__h2{}
+    &__p{}
+  }
+
+}
+.text-block-img {
+  height: 400px;
+  width: 100%;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}

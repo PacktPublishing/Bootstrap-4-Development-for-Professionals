@@ -1,0 +1,13 @@
+.contact {
+  margin: em(50);
+  &__h2 {
+    font-weight: 900;
+    color: #333;
+  }
+  .form-control {
+    border-radius: 0;
+  }
+  .btn {
+    border-radius: 0;
+  }
+}

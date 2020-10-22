@@ -1,0 +1,50 @@
+.cst-btn {
+    background: $green;
+    color: white;
+    display: block;
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    box-shadow: 0 4px 0 0 darken($green, 10%);
+    transition: all .25s;
+
+    &:hover {
+        color: white;
+        background: darken($green, 5%);
+        box-shadow: 0 4px 0 0 darken($green, 15%);
+        text-decoration: none;
+    }
+
+}
+
+.submit-btn {
+    background: $green;
+    color: white;
+    display: block;
+
+    padding: 10px 40px;
+    border-radius: 5px;
+
+
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    box-shadow: 0 4px 0 0 darken($green, 10%);
+    transition: all .25s;
+    border: none;
+
+
+    &:hover {
+        color: white;
+        background: darken($green, 5%);
+        box-shadow: 0 4px 0 0 darken($green, 15%);
+        text-decoration: none;
+    }
+}

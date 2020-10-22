@@ -1,0 +1,30 @@
+.text-column__footer {
+  &__ul {
+    margin-bottom: em(50);
+    li {
+      display: inline-block;
+      list-style: none;
+      margin-right: 15px;
+      a{
+        display: block;
+        background: #e1e1e1;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.25s;
+        &:hover {
+          text-decoration: none;
+          background: darken(#e1e1e1, 20%);
+        }
+        i {
+          color: white;
+          font-size: em(25);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.pricing-table {
+    background: $light-gray;
+    border-radius: 5px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+
+    &__heading {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    &__price {
+        background: $green;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 0 0 darken($green, 10%);
+        margin-bottom: 25px;
+
+        span {
+            color: white;
+            font-weight: 700;
+            font-family: 'Roboto', sans-serif;
+            font-size: 22px;
+        }
+    }
+
+    &__option {
+        text-align: center;
+        color: $gray1;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+    &--white {
+      background: $white;
+      &__heading {
+        color: $black;
+      }
+      &__option {
+        color: $gray2;
+        span {
+          color: $gray3;
+        }
+      }
+    }
+
+
+}

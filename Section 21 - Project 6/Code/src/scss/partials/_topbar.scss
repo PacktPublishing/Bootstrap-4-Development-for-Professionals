@@ -1,0 +1,18 @@
+.top-bar {
+  width: calc(100vw - 350px);
+  background: #eaeaea;
+  padding: 10px;
+
+  &__search {
+    width: 50%;
+
+    .form-group {
+      margin-bottom: 0;
+
+      input {
+        border: 0 solid white;
+        border-radius: 0;
+      }
+    }
+  }
+}

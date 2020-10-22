@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap');
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+.container-fluid {
+  padding: 0;
+  > .row {
+    margin-right: 0;
+    margin-left: 0;
+    > [class*="col-"],
+    > .col {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}

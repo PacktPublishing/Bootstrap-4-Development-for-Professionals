@@ -1,0 +1,13 @@
+.text-column {
+  &__logo {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 900;
+    font-size: em(70);
+    color: #333;
+    text-transform: capitalize;
+    &:hover {
+      color: #333;
+      text-decoration: none;
+    }
+  }
+}

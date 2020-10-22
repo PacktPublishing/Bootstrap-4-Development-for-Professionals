@@ -1,0 +1,77 @@
+.card-columns {
+  @include media-breakpoint-only(xl) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(sm) {
+    column-count: 2;
+  }
+}
+.featured-title {
+  margin-left: calc(2vw + 15px);
+  margin-bottom: 0px;
+  padding-bottom: em(5);
+  margin-top: em(10);
+  color: #333;
+  font-weight: 700;
+  font-size: em(30);
+}
+.card-columns {
+  margin: 0 calc(2vw + 15px);
+
+}
+
+.card {
+  border: none;
+  transition: all 0.25s;
+  &__meta {
+    position: relative;
+    z-index: 3;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    transition: all .25s;
+    padding: 15px 15px 0 15px;
+    font-size: 20px;
+    opacity: 0;
+
+
+    &__name-label {
+      font-weight: 700;
+    }
+    &__desc {
+      display: block;
+      font-size: 12px;
+    }
+  }
+  img {
+    width: 100%;
+    transition: all 0.5s;
+  }
+  &:after {
+    content: "";
+    background: rgba(#000, .25);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    opacity: 0;
+    z-index: 2;
+    transition: all .5s;
+  }
+  &:hover &__meta {
+    bottom: 15px;
+    opacity: 1;
+
+  }
+  &:hover::after {
+    opacity: 1;
+    cursor:pointer;
+  }
+}
